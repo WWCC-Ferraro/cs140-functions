@@ -1,0 +1,10 @@
+{
+  "name": "CS 140 · JavaScript",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  },
+  "postCreateCommand": "node --version"
+}

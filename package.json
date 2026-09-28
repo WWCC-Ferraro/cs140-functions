@@ -1,0 +1,12 @@
+{
+  "name": "cs140-functions",
+  "private": true,
+  "type": "module",
+  "description": "A chat bot command pipeline built from functions that take and return functions",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

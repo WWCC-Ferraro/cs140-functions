@@ -1,0 +1,13 @@
+# Runs the tests on every push, so you see pass/fail as you work.
+# The same command runs locally: npm test
+name: tests
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm test
