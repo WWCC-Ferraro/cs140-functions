@@ -4,6 +4,9 @@ name: tests
 on: [push, pull_request, workflow_dispatch]
 jobs:
   test:
+    # The template itself fails by design — its starter is unfinished. Run only
+    # in the repositories created from it.
+    if: ${{ !github.event.repository.is_template }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
