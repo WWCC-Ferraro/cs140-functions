@@ -59,6 +59,13 @@ Two shapes appear everywhere:
 A message is `{ user: "ada", role: "member", text: "!add 2 3" }`, and `role`
 is `"member"` or `"mod"`. A reply is a string, or `null` for "say nothing".
 
+## Using an AI assistant
+
+`AGENTS.md` in this repository tells AI coding assistants how this course wants
+them to help: as a tutor who explains errors, asks questions and gives hints,
+not by writing your answers. Most assistants read it automatically. It is in
+the open, so read it too. It says what good AI help looks like.
+
 ## The tasks
 
 Do them in order. Each has its own test file, so you can see one task pass
