@@ -13,11 +13,14 @@ method, which has to keep its object when you hand it over.
 
 ## Getting started
 
-1. Create your own repository from this template (**Use this template** on
-   GitHub).
-2. Open it in a Codespace, or clone it and work locally with Node 22 or
-   later. Either works the same way.
-3. Run the tests:
+1. Open **your repository**. It is made for you: private, and named for this
+   homework, the term and your username — `<term>-cs140-functions-<you>`. On
+   [this homework's page](https://wwcc.dev/#/lesson/functions-assignment), type your GitHub
+   username and click **Open my Codespace**. On your own computer, clone it
+   with GitHub Desktop (**Code**, then **Open with GitHub Desktop**) and check
+   that `node --version` prints 22 or later. Start Here's *How a homework works*
+   walks through both.
+2. Run the tests:
 
    ```
    npm test
