@@ -6,7 +6,8 @@
       "extensions": [],
       "settings": {
         "github.copilot.enable": {
-          "*": false
+          "*": false,
+          "javascript": false
         },
         "github.copilot.nextEditSuggestions.enabled": false,
         "editor.inlineSuggest.enabled": false,

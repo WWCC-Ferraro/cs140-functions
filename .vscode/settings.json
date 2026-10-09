@@ -1,9 +1,11 @@
-// AI code suggestions are switched off in this homework's editor, so the code
-// you hand in is your own. Chat stays on, and follows AGENTS.md: it helps as a
-// tutor. README.md, "Using an AI assistant", says more.
+// This project's VS Code settings. Add your own below if you like, but keep
+// these: they switch off AI code suggestions, so the code you hand in is
+// your own. Chat stays on and follows AGENTS.md. See README.md, "Using an AI
+// assistant".
 {
   "github.copilot.enable": {
-    "*": false
+    "*": false,
+    "javascript": false
   },
   "github.copilot.nextEditSuggestions.enabled": false,
   "editor.inlineSuggest.enabled": false,
