@@ -3,7 +3,16 @@
   "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
   "customizations": {
     "vscode": {
-      "extensions": []
+      "extensions": [],
+      "settings": {
+        "github.copilot.enable": {
+          "*": false
+        },
+        "github.copilot.nextEditSuggestions.enabled": false,
+        "editor.inlineSuggest.enabled": false,
+        "chat.useAgentsMdFile": true,
+        "chat.agent.enabled": false
+      }
     }
   },
   "postCreateCommand": "node --version"

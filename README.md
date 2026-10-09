@@ -69,6 +69,10 @@ them to help: as a tutor who explains errors, asks questions and gives hints,
 not by writing your answers. Most assistants read it automatically. It is in
 the open, so read it too. It says what good AI help looks like.
 
+In this homework's Codespace, AI code suggestions are switched off
+(`.vscode/settings.json`), so the code you hand in is your own. Chat is on,
+and it follows `AGENTS.md`: ask it about an error, a failing test or an idea.
+
 ## The tasks
 
 Do them in order. Each has its own test file, so you can see one task pass
